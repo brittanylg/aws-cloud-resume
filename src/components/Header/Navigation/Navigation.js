@@ -1,13 +1,13 @@
-import './Navigation.css';
+import NavigationItem from './NavigationItem';
 
 function Navigation() {
   return (
     <ul className="navigation p-4 space-y-2">
-      <li><a href="#bio">Bio</a></li>
-      <li><a href="#contact">Contact Info</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#education">Education</a></li>
+      <NavigationItem link="#bio" text="bio" />
+      <NavigationItem link="#contact" text="contact info" />
+      <NavigationItem link="#experience" text="experience" />
+      <NavigationItem link="#projects" text="projects" />
+      <NavigationItem link="#education" text="education" />
     </ul>
   );
 }

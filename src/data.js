@@ -2,14 +2,12 @@ const data = {
   bio: {
     name: 'Brittany Grant',
     title: 'DevOps Engineer',
+    location: 'Maryland, USA',
+    timeZone: 'Eastern Time Zone (UTC-5)',
     intro: 'Highly motivated and detail-oriented Web Developer of 5 years transitioning to a more operations-specific career path. Over 2 years of experience as a DevOps Engineer monitoring, maintaining, automating, and optimizing infrastructure on AWS. Knowledgeable of configuration management, source control, and infrastructure as code principles.',
-    contactInfo: {
-      location: 'Maryland, USA',
-      timeZone: 'Eastern Time Zone (UTC-5)',
-      email: 'brittanylgrant00@gmail.com',
-      linkedin: 'https://linkedin.com/in/brittanylg',
-      github: 'https://github.com/brittanylg',
-    },
+    email: 'mailto:brittanylgrant00@gmail.com',
+    linkedin: 'https://linkedin.com/in/brittanylg',
+    github: 'https://github.com/brittanylg',
   },
   experience: [
     {

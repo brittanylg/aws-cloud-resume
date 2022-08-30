@@ -1,8 +1,8 @@
 const Experience = ({ data }) => (
-  <section id="experience" className="px-4 py-8 mr-20 my-8 border-l-8 border-sky-800 bg-zinc-800 space-y-8">
+  <section id="experience" className="min-h-screen flex flex-col justify-center space-y-8 px-10 py-16">
     <h2 className="font-semibold text-4xl">Experience</h2>
     {data.map(({company, location, title, dates, duties, skills}, i) => (
-      <div key={i} className="company-panel font-light">
+      <div key={i} className="company-panel max-w-7xl p-8 border-l-8 border-sky-800 bg-zinc-800 font-light">
         <div className="py-2">
           <h3 className="text-3xl font-medium">{title}</h3>
           <p className="text-2xl">at <span className="font-medium">{company}</span>, {location}</p>

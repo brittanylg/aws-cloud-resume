@@ -1,4 +1,4 @@
-const ContactInfoItem = ({ link, target, text, children }) => {
+const PersonMeta = ({ link, target, text, children }) => {
   if (link) {
     return (
       <a href={link} target={target} className="w-16 h-16 p-2 flex items-center justify-center rounded-full text-4xl bg-zinc-800 hover:bg-sky-900 transition-colors" rel="noreferrer">
@@ -15,4 +15,4 @@ const ContactInfoItem = ({ link, target, text, children }) => {
   }
 }
 
-export default ContactInfoItem;
+export default PersonMeta;

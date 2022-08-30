@@ -3,7 +3,7 @@ import { solid, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
 import ContactInfoItem from './ContactInfoItem'
 
 const ContactInfo = ({ data }) => (
-  <section id="contact-info" className="px-4 py-8 space-y-4">
+  <div className="space-y-4">
     <div className="grid grid-cols-2 gap-4 justify-items-center">
       <ContactInfoItem text={data.location}>
         <FontAwesomeIcon icon={solid('location-pin')} />
@@ -23,7 +23,7 @@ const ContactInfo = ({ data }) => (
         <FontAwesomeIcon icon={brands('github')} />
       </ContactInfoItem>
     </div>
-  </section>
+  </div>
 )
 
 export default ContactInfo;

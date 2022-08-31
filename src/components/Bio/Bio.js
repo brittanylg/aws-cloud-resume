@@ -1,11 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { solid, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
+import { brands, solid } from '@fortawesome/fontawesome-svg-core/import.macro'
 import PersonMeta from './PersonMeta'
 
 const Bio = ({ data }) => (
-  <section id="bio" className="min-h-screen flex flex-col justify-center max-w-7xl px-10 py-16 font-light">
+  <div>
     <h1 className="font-black text-7xl">{data.name}</h1>
-    <h2 className="text-3xl">{data.title}</h2>
     <div className="flex justify-items-center text-sm space-x-4">
       <PersonMeta text={data.location}>
         <FontAwesomeIcon icon={solid('location-pin')} />
@@ -18,9 +17,6 @@ const Bio = ({ data }) => (
     <p className="my-8 text-xl">{data.intro}</p>
 
     <div className="flex items-center justify-start space-x-4">
-      <PersonMeta link={data.email}>
-        <FontAwesomeIcon icon={solid('envelope')} />
-      </PersonMeta>
       <PersonMeta link={data.linkedin} target="_blank">
         <FontAwesomeIcon icon={brands('linkedin-in')} />
       </PersonMeta>
@@ -28,7 +24,7 @@ const Bio = ({ data }) => (
         <FontAwesomeIcon icon={brands('github')} />
       </PersonMeta>
     </div>
-  </section>
+  </div>
 )
 
 export default Bio;

@@ -7,7 +7,7 @@ const PersonMeta = ({ link, target, text, children }) => {
     );
   } else {
     return (
-      <span className="flex items-center space-x-2 p-2">
+      <span className="flex items-center space-x-2 sm:py-2 py-1">
         {children}
         <span>{text}</span>
       </span>

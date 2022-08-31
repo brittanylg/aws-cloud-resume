@@ -4,8 +4,8 @@ import PersonMeta from './PersonMeta'
 
 const Bio = ({ data }) => (
   <div>
-    <h1 className="font-black text-7xl">{data.name}</h1>
-    <div className="flex justify-items-center text-sm space-x-4">
+    <h1 className="font-black md:text-7xl text-4xl">{data.name}</h1>
+    <div className="sm:flex justify-items-center text-sm sm:space-x-4">
       <PersonMeta text={data.location}>
         <FontAwesomeIcon icon={solid('location-pin')} />
       </PersonMeta>
@@ -14,7 +14,7 @@ const Bio = ({ data }) => (
       </PersonMeta>
     </div>
 
-    <p className="my-8 text-xl">{data.intro}</p>
+    <p className="my-8 sm:text-xl">{data.intro}</p>
 
     <div className="flex items-center justify-start space-x-4">
       <PersonMeta link={data.linkedin} target="_blank">

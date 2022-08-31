@@ -7,9 +7,9 @@ import Projects from './Projects/Projects';
 import Education from './Education/Education';
 
 const App = () => (
-  <div className="bg-zinc-900 text-white grid grid-cols-4">
+  <div className="bg-zinc-900 text-white md:grid grid-cols-4">
     <Header />
-    <main className="h-screen overflow-auto scroll-smooth col-span-3 divide-y-2 divide-zinc-800">
+    <main className="md:h-screen md:overflow-auto scroll-smooth md:col-span-3 divide-y-2 divide-zinc-800">
       <Section id="bio">
         <Bio data={data.bio} />
       </Section>

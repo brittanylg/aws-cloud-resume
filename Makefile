@@ -7,4 +7,4 @@ deploy-infra:
 	sam deploy
 
 deploy-s3:
-	aws s3 sync ./front-end/build/ s3://brittanylg.com
+	aws s3 sync ./app/build/ s3://brittanylg.com

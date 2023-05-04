@@ -23,6 +23,9 @@ const Bio = ({ data }) => (
       <PersonMeta link={data.github} target="_blank">
         <FontAwesomeIcon icon={brands('github')} />
       </PersonMeta>
+      <PersonMeta link={data.gitlab} target="_blank">
+        <FontAwesomeIcon icon={brands('gitlab')} />
+      </PersonMeta>
     </div>
   </div>
 )

@@ -6,6 +6,7 @@ const data = {
     intro: 'Highly motivated and detail-oriented DevOps Engineer with 5 years of full stack web development background.  Over 3 years of experience monitoring, maintaining, automating, and optimizing infrastructure on AWS. Knowledgeable of configuration management, source control, and infrastructure as code principles.',
     linkedin: 'https://linkedin.com/in/brittanylg',
     github: 'https://github.com/brittanylg',
+    gitlab: 'https://gitlab.com/brittanylg',
   },
   experience: [
     {

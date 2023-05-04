@@ -3,7 +3,7 @@ import { brands, solid } from '@fortawesome/fontawesome-svg-core/import.macro'
 import PersonMeta from './PersonMeta'
 
 const Bio = ({ data }) => (
-  <div>
+  <div className="max-w-7xl">
     <h1 className="font-black md:text-7xl text-4xl">{data.name}</h1>
     <div className="sm:flex justify-items-center text-sm sm:space-x-4">
       <PersonMeta text={data.location}>
